@@ -16,14 +16,15 @@ export const mastersDegree =
   "Master of Technology in Computer Science and Engineering, R V COLLEGE OF ENGINEERING - 8.67 GPA";
 export const bachelorsDegree =
   "Bachelor of Engineering in Computer Science and Engineering, UNIVERSITY VISVESVARAYA COLLEGE OF ENGINEERING - 76.75%";
-
+//CV Pdf
+export const myCV = "/Sunil-Portfolio/SUNIL_CV.pdf";
 // Images
-export const profilePic = "../../../public/SUNIL.jpg";
+export const profilePic = " /Sunil-Portfolio/SUNIL.jpg";
 
 //Images for contact section
-export const linkedInImg = "../../../public/linkedin.png";
-export const gitHubImg = "../../../public/github.png";
-export const gmailImg = "../../../public/gmail.png";
+export const linkedInImg = "/Sunil-Portfolio/linkedin.png";
+export const gitHubImg = "/Sunil-Portfolio/github.png";
+export const gmailImg = "/Sunil-Portfolio/gmail.png";
 //URLs
 export const linkedInUrl = "https://linkedin.com/in/sunilr45";
 export const githubUrl = "https://github.com/Sunil19960";
@@ -35,7 +36,7 @@ export const altGmail = "Gmail";
 
 export const dummyData = [
   {
-    image: "../../iziel.png",
+    image: "/Sunil-Portfolio/iziel.png",
     companyName: "IZIEL HEALTHCARE",
     projectTitle: "INTEGRI-MEDICAL",
     toolsUsed: "Javascript, React JS, Redux Toolkit, Flutter, Firebase",
@@ -46,7 +47,7 @@ export const dummyData = [
     ],
   },
   {
-    image: "../../stellaris.png",
+    image: "/Sunil-Portfolio/stellaris.png",
     companyName: "STELLARIS TECHNOLOGIES PRIVATE LIMITED",
     projectTitle: "ST Dental Claims",
     toolsUsed: "Javascript, React JS, Redux Toolkit, Firebase",
@@ -57,7 +58,7 @@ export const dummyData = [
     ],
   },
   {
-    image: "../../philips.png",
+    image: "/Sunil-Portfolio/philips.png",
     companyName: "PHILIPS",
     projectTitle: "App OS",
     toolsUsed: "Javascript, React JS, Redux Toolkit",

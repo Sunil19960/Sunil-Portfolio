@@ -1,5 +1,4 @@
 import "../../index.css";
-import resumeDoc from "../../assets/documents/SUNIL_CV.pdf";
 import {
   about,
   name,
@@ -9,8 +8,8 @@ import {
   summary,
   downloadCV,
   profilePic,
+  myCV,
 } from "../../constants";
-
 export function About() {
   return (
     <main>
@@ -27,7 +26,7 @@ export function About() {
             </p>
           </div>
           <div className="py-2 text-center mx-4 bg-yellow-100 text-green-700 w-1/4 rounded-lg sm:justify-center float-right text-lg font-semibold">
-            <a href={resumeDoc} download>
+            <a href={myCV} download>
               {downloadCV}
             </a>
           </div>
