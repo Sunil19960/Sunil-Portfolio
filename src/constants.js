@@ -1,7 +1,7 @@
 export const name = "Sunil";
 export const greetingMessage = "Hello Everyone.";
 export const intro = "I'm Sunil";
-export const prof = "Android and Web Developer";
+export const prof = "";
 export const summary =
   "I'm a Skilled developer with experience in building dynamic web applications, integrating Firebase for real-time data and MongoDB for scalable backend storage.";
 export const downloadCV = "Download CV";
@@ -39,6 +39,8 @@ export const dummyData = [
     image: "/Sunil-Portfolio/iziel.png",
     companyName: "IZIEL HEALTHCARE",
     projectTitle: "INTEGRI-MEDICAL",
+    designation: "Associate Software Engineer",
+    year: "Nov 2024 - Present",
     toolsUsed: "Javascript, React JS, Redux Toolkit, Flutter, Firebase",
     keyResponsibilities: [
       "Developed a user-friendly feedback form for the Integri-Medical application using Flutter, enabling efficient and interactive feedback collection from users.",
@@ -50,7 +52,10 @@ export const dummyData = [
     image: "/Sunil-Portfolio/stellaris.png",
     companyName: "STELLARIS TECHNOLOGIES PRIVATE LIMITED",
     projectTitle: "ST Dental Claims",
+    designation: "Software Engineer",
+    year: "Mar 2024 - Oct 2024",
     toolsUsed: "Javascript, React JS, Redux Toolkit, Firebase",
+
     keyResponsibilities: [
       "Developed the user interface for the ST Dental Claims product using React.js, ensuring a responsive and user-friendly experience for end-users.",
       "Used Redux toolkit for state management, optimizing data flow and enhancing the responsiveness of the application by ensuring consistent and efficient state updates across components.",
@@ -61,6 +66,8 @@ export const dummyData = [
     image: "/Sunil-Portfolio/philips.png",
     companyName: "PHILIPS",
     projectTitle: "App OS",
+    designation: "INTERN",
+    year: "Sep 2022 - June 2023",
     toolsUsed: "Javascript, React JS, Redux Toolkit",
     keyResponsibilities: [
       "Developed the user interface for the AppOS software using React.js, allowing doctors to easily input and manage patient details through intuitive forms.",

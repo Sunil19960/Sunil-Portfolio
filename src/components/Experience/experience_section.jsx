@@ -13,6 +13,8 @@ export function ExperienceSection() {
             key={index}
             image={item.image}
             companyName={item.companyName}
+            designation={item.designation}
+            year={item.year}
             projectTitle={item.projectTitle}
             toolsUsed={item.toolsUsed}
             keyResponsibilities={item.keyResponsibilities}

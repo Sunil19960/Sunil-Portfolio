@@ -26,8 +26,8 @@ export function About() {
         </div>
 
         <div className=" text-right">
-          <img alt={name} src={profilePic} className="w-40 h-40 rounded-full" />
-          <div className="mt-4 text-center mx-4 bg-yellow-100 text-green-700 p-2 rounded-lg sm:justify-center float-right text-lg font-semibold">
+          <img alt={name} src={profilePic} className="w-35 h-35 rounded-full" />
+          <div className="mt-4 text-center mx-2 bg-yellow-100 text-green-700 p-2 rounded-lg sm:justify-center float-right text-lg font-semibold">
             <a href={myCV} download>
               {downloadCV}
             </a>
