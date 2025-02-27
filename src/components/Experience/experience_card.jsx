@@ -24,7 +24,7 @@ export function ExperienceCard(props) {
           <p className="text-lg font-semibold text-gray-900">
             Project: {projectTitle}
           </p>
-          <p className="text-sm text-gray-500">Tools Used: {toolsUsed}</p>
+          <p className="text-md text-gray-500">Tools Used: {toolsUsed}</p>
           <h4 className="font-semibold text-gray-500 mt-4">
             {keyResponsibilitiesText}
           </h4>
